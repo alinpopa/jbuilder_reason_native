@@ -1,0 +1,5 @@
+(executables
+  ((names (main))
+   (modules (Main))
+   ;; `ExampleLib` is the name defined in `src/jbuild`
+   (libraries (ExampleLib))))

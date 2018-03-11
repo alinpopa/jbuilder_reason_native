@@ -1,0 +1,7 @@
+(library
+  ((name ExampleLib)
+   ;; Without the following line, the libraries module will be available
+   ;; under ExampleLib.Module_name only (i.e. `ExampleLib.Example01Lib.Example01...`)
+   ;; More details about that on https://github.com/janestreet/jbuilder/blob/master/doc/manual.org#library
+   ;; (wrapped false)
+   (synopsis "Description for this library...")))
